@@ -1,0 +1,29 @@
+{
+    "name": "house",
+    "id": "house",
+    "scripts": ["House"],
+    "tiles": [
+        {
+            "id": "ground",
+            "sprite": "",
+            "background": "grey",
+            "walkable": true,
+            "height": 600,
+            "width": 800,
+            "z": 1,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "house-exit",
+            "sprite": "",
+            "background": "tan",
+            "walkable": "true",
+            "height": 20,
+            "width": 30,
+            "z": 2,
+            "x": 300,
+            "y": 0
+        }
+    ]
+}

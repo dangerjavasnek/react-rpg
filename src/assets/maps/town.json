@@ -1,0 +1,73 @@
+{
+    "name": "town",
+    "id": "town",
+    "scripts": ["TownMap"],
+    "tiles": [
+        {
+            "id": "grass",
+            "sprite": "grass",
+            "background": "green",
+            "walkable": true,
+            "height": 600,
+            "width": 800,
+            "z": 1,
+            "x": 0,
+            "y": 0
+        },
+        {
+            "id": "house",
+            "sprite": "house",
+            "background": "",
+            "walkable": false,
+            "height": 150,
+            "width": 250,
+            "z": 2,
+            "x": 310,
+            "y": 310
+        },
+        {
+            "id": "house-entry",
+            "sprite": "",
+            "background": "tan",
+            "walkable": "true",
+            "height": 20,
+            "width": 30,
+            "z": 2,
+            "x": 425,
+            "y": 290
+        },
+        {
+            "id": "water-lake",
+            "sprite": "water",
+            "background": "blue",
+            "walkable": false,
+            "height": 150,
+            "width": 500,
+            "z": 1,
+            "x": 50,
+            "y": 0
+        },
+        {
+            "id": "water-ocean-1",
+            "sprite": "water",
+            "background": "blue",
+            "walkable": false,
+            "height": 600,
+            "width": 50,
+            "z": 1,
+            "x": 750,
+            "y": 0
+        },
+        {
+            "id": "water-ocean-2",
+            "sprite": "water",
+            "background": "blue",
+            "walkable": false,
+            "height": 50,
+            "width": 800,
+            "z": 1,
+            "x": 0,
+            "y": 550
+        }
+    ]
+}

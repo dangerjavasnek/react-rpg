@@ -1,0 +1,19 @@
+#map {
+    background-color: #e5e6e6;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+#player {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 2000;
+}
+.map-tile {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
